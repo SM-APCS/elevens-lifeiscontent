@@ -156,14 +156,7 @@ public abstract class Board {
 		return false;
 	}
 
-	/**
-	 * Method to be completed by the concrete class that determines
-	 * if the selected cards form a valid group for removal.
-	 * @param selectedCards the list of the indices of the selected cards.
-	 * @return true if the selected cards form a valid group for removal;
-	 *         false otherwise.
-	 */
-	public abstract boolean isLegal(List<Integer> selectedCards);
+	
 
 	/**
 	 * Method to be completed by the concrete class that determines

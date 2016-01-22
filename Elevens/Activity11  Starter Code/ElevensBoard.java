@@ -107,13 +107,18 @@ public class ElevensBoard extends Board {
 		boolean foundJack = false;
 		boolean foundQueen = false;
 		boolean foundKing = false;
-		for (Integer kObj : selectedCards) {
+		for (Integer kObj : selectedCards) 
+                {
 			int k = kObj.intValue();
-			if (cardAt(k).rank().equals("jack")) {
+			if (cardAt(k).rank().equals("jack")) 
+                        {
 				foundJack = true;
-			} else if (cardAt(k).rank().equals("queen")) {
+			}
+                        if (cardAt(k).rank().equals("queen")) 
+                        {
 				foundQueen = true;
-			} else if (cardAt(k).rank().equals("king")) {
+			}
+                        if (cardAt(k).rank().equals("king")) {
 				foundKing = true;
 			}
 		}
